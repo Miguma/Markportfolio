@@ -87,7 +87,7 @@ export function AchievementsSection() {
                 Certifications
               </h3>
               <div className="flex flex-col gap-4">
-                {certifications.map((cert, index) => {
+                {certifications.map((cert) => {
                   const CertIcon = cert.icon;
                   return (
                     <motion.div
@@ -112,7 +112,7 @@ export function AchievementsSection() {
             <div className="absolute left-8 top-8 bottom-8 w-[2px] bg-gradient-to-b from-accent-purple via-accent-blue to-accent-cyan hidden sm:block opacity-30" />
 
             <div className="space-y-8 relative">
-              {achievements.map((achievement, index) => {
+              {achievements.map((achievement) => {
                 const Icon = achievement.icon
                 return (
                   <motion.div
