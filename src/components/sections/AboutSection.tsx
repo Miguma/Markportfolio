@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { Code2, Lightbulb, Zap, Target, Users } from 'lucide-react'
-import Image from 'next/image'
 
 export function AboutSection() {
   const containerVariants = {
