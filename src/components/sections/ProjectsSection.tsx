@@ -95,9 +95,8 @@ export function ProjectsSection() {
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-10">
-          {projects.map((project, index) => {
+          {projects.map((project) => {
             const Icon = project.icon;
-            const isEven = index % 2 === 0;
             return (
               <motion.div
                 key={project.title}
