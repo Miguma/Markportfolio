@@ -117,7 +117,7 @@ export function AboutSection() {
           <motion.div variants={itemVariants} className="lg:col-span-5 flex flex-col items-stretch space-y-6">
             {/* Features List */}
             <div className="space-y-5 w-full">
-              {features.map((feature, index) => {
+              {features.map((feature) => {
                 const Icon = feature.icon
                 return (
                   <motion.div
