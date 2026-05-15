@@ -143,7 +143,7 @@ export function AboutSection() {
 
         {/* Stats Grid */}
         <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 md:mt-24">
-          {stats.map((stat, index) => {
+          {stats.map((stat) => {
             const Icon = stat.icon;
             return (
               <motion.div
