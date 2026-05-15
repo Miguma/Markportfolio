@@ -153,9 +153,9 @@ export function ExperienceSection() {
 
                         {/* Skills/Tags */}
                         <div className={`flex flex-wrap gap-2 mt-4 ${isEven ? 'md:justify-end' : ''}`}>
-                          {exp.skills.map((skill, i) => (
+                          {exp.skills.map((skill) => (
                             <span 
-                              key={i} 
+                              key={skill} 
                               className="px-3 py-1 text-xs font-mono rounded-full bg-dark-border/30 text-gray-300 border border-dark-border group-hover:border-accent-purple/30 transition-colors"
                             >
                               {skill}

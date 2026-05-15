@@ -130,7 +130,7 @@ export function HomeSection() {
             { icon: Github, label: 'GitHub', href: '#' },
             { icon: Linkedin, label: 'LinkedIn', href: '#' },
             { icon: Mail, label: 'Email', href: '#' },
-          ].map((social, i) => (
+          ].map((social) => (
             <motion.a
               key={social.label}
               href={social.href}
